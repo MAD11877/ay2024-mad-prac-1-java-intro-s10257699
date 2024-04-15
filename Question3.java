@@ -17,5 +17,6 @@ public class Question3
 
     // Multiply the integer by itself andd print
     int integerCalc = integer * integer;    
+    System.out.println(integerCalc);
   }
 }
