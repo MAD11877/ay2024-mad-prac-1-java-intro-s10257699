@@ -23,7 +23,7 @@ public class Question2
 
     // Calculate BMI
     double bmi = weight / (height * height);
-    System.out.print("Your BMI is: " + bmi);
+    System.out.printf("Your BMI is: %.1f\n", bmi);
 
   }
 }
