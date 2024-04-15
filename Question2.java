@@ -10,16 +10,10 @@ public class Question2
      * Hint: in.nextDouble() to read double
      */
     Scanner in = new Scanner(System.in);
-
-    // Prompt user for height
     double height = in.nextDouble();
-
-    // Prompt user for weight
     double weight = in.nextDouble();
-
-    // Calculate BMI
     double bmi = weight / (height * height);
-    System.out.print(bmi);
+    System.out.println(bmi);
   }
 }
 
