@@ -32,6 +32,8 @@ public class Question5 {
                 mode = nums.get(i);
             }
         }
+        
+        System.out.println(mode);
     }
 }
 
