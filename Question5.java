@@ -6,14 +6,12 @@ public class Question5 {
         Scanner in = new Scanner(System.in);
 
         // Prompt user for the number of integers
-        System.out.print("Enter number of integers: ");
         int numOfIntegers = in.nextInt();
 
         ArrayList<Integer> nums = new ArrayList<>();
 
         // Loop to get input integers
         for (int i = 0; i < numOfIntegers; i++) {
-            System.out.print("Enter integer " + (i + 1) + ": ");
             int num = in.nextInt();
             nums.add(num);
         }
@@ -34,9 +32,6 @@ public class Question5 {
                 mode = nums.get(i);
             }
         }
-
-        System.out.println("Mode (number with highest occurrence): " + mode);
-
     }
 }
 
