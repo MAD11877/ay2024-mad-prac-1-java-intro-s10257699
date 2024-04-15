@@ -21,7 +21,7 @@ public class Question2
 
     // Calculate BMI
     double bmi = weight / (height * height);
-    System.out.printf(bmi);
+    System.out.print(bmi);
   }
 }
 
