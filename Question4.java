@@ -22,7 +22,7 @@ public class Question4
     // Prompt user for integer
     int integer = in.nextInt();
 
-    // Loop 
+    // Loop  
         for (int i = integer; i > 0; i--) 
         {
             for (int j = 0; j < i; j++) 
